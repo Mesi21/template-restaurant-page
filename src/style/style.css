@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+
+.header{
+    position: fixed;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    color: #fff;
+}
+
+#left-h {
+    width: 50%;
+    justify-content: flex-start;
+    padding: 0px 140px;
+}
+
+#right-h {
+    width: 50%;
+}
+
+#right-h ul{
+    display: flex;
+    flex-direction: row;
+    padding: 17px 40px;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+li{
+   padding: 0px 30px;
+}
