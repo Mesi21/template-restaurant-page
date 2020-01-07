@@ -1,6 +1,6 @@
 function fullHeader() {
     const mainHeader = document.createElement('header');
-    mainHeader.setAttribute('class', 'header')
+    mainHeader.setAttribute('class', 'container-fluid')
     
     const left = document.createElement('div');
     left.setAttribute('id', 'left-h');
@@ -15,16 +15,21 @@ function fullHeader() {
     mainHeader.appendChild(left);
 
     const navBar = document.createElement('ul');
-    navBar.setAttribute('id', 'menu');
+    navBar.setAttribute('id', 'navbar');
+    navBar.setAttribute('class', 'list-group')
+
     const about = document.createElement('li');
-    about.innerHTML = 'ABOUT';
+    about.innerHTML = '<a href="#" id="about">ABOUT</a>';
+   
     const menu = document.createElement('li');
-    menu.innerHTML = 'MENU';
+    menu.innerHTML = '<a href="#" id="menu">MENU</a>';
+    
     const staff = document.createElement('li');
-    staff.innerHTML = 'STAFF';
+    staff.innerHTML = '<a href="#" id="staff">STAFF</a>';
+
     const contact = document.createElement('li');
-    contact.innerHTML = 'CONTACT';
-     
+    contact.innerHTML = '<a href="#" id="contact">CONTACT</a>';
+
     navBar.appendChild(about);
     navBar.appendChild(menu);
     navBar.appendChild(staff);
@@ -33,6 +38,7 @@ function fullHeader() {
     mainHeader.appendChild(right);
 
     return mainHeader; 
+    
 }
 
 export default fullHeader;
