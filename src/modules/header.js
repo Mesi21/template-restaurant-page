@@ -25,7 +25,7 @@ const fullHeader = () => {
     const tabName = document.createElement('li');
     tabName.setAttribute('id', `${tab}`);
     tabName.innerHTML = `${tab}`;
-    navBar.appendChild(tabName);  
+    navBar.appendChild(tabName);
   });
 
   right.appendChild(navBar);

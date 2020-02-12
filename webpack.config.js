@@ -11,7 +11,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader']
+        use: ['style-loader', 'css-loader'],
       },
       {
         test: /\.(png|svg|jpe?g|gif)$/,
@@ -22,14 +22,14 @@ module.exports = {
             options: {
               name: '[name].[ext]',
               outputPath: 'images/',
-              publicPath: 'images/'
-            }
-          }
+              publicPath: 'images/',
+            },
+          },
         ]
       },
-    ]
+    ],
   },
   watchOptions: {
-    poll: true
+    poll: true,
   },
 };
