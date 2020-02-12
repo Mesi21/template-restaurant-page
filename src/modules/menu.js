@@ -16,7 +16,7 @@ const menuPage = () => {
     const tabName = document.createElement('li');
     tabName.setAttribute('id', `${tab}`);
     tabName.innerHTML = `${tab}`;
-    menuBar.appendChild(tabName);   
+    menuBar.appendChild(tabName);
   });
 
   menu.appendChild(menuBar);

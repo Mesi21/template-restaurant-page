@@ -19,7 +19,7 @@ const staffPage = () => {
     + '<p>Name One</p>'
     + '<p>Name Two</p>'
     + '<p>Name Three</p>'
-    + '<p>Name Four</p>' 
+    + '<p>Name Four</p>';
 
   staff.appendChild(staffList);
   return staff;
