@@ -1,6 +1,7 @@
-function fullHeader() {
+const fullHeader = () => {
     const mainHeader = document.createElement('header');
     mainHeader.setAttribute('class', 'container-fluid')
+    mainHeader.setAttribute('id', 'header')
     
     const left = document.createElement('div');
     left.setAttribute('id', 'left-h');
@@ -18,22 +19,15 @@ function fullHeader() {
     navBar.setAttribute('id', 'navbar');
     navBar.setAttribute('class', 'list-group')
 
-    const about = document.createElement('li');
-    about.innerHTML = '<a href="#" id="about">ABOUT</a>';
-   
-    const menu = document.createElement('li');
-    menu.innerHTML = '<a href="#" id="menu">MENU</a>';
-    
-    const staff = document.createElement('li');
-    staff.innerHTML = '<a href="#" id="staff">STAFF</a>';
+    let navTabs = ['About', 'Menu', 'Staff', 'Contact'];
 
-    const contact = document.createElement('li');
-    contact.innerHTML = '<a href="#" id="contact">CONTACT</a>';
+    navTabs.forEach((tab) => {
+        let tabName = document.createElement('li');
+        tabName.setAttribute('id', `${tab}`);
+        tabName.innerHTML = `${tab}`;
+        navBar.appendChild(tabName);   
+    })
 
-    navBar.appendChild(about);
-    navBar.appendChild(menu);
-    navBar.appendChild(staff);
-    navBar.appendChild(contact);
     right.appendChild(navBar);
     mainHeader.appendChild(right);
 

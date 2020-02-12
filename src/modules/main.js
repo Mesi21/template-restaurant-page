@@ -1,4 +1,4 @@
-function mainSection() {
+const mainSection = () => {
     const description = document.createElement('div');
     description.setAttribute('id', 'welcome-container');
 
