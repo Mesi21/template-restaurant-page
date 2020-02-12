@@ -17,22 +17,21 @@ const fullHeader = () => {
 
   const navBar = document.createElement('ul');
   navBar.setAttribute('id', 'navbar');
-  navBar.setAttribute('class', 'list-group')
+  navBar.setAttribute('class', 'list-group');
 
-  let navTabs = ['About', 'Menu', 'Staff', 'Contact'];
+  const navTabs = ['About', 'Menu', 'Staff', 'Contact'];
 
   navTabs.forEach((tab) => {
-    let tabName = document.createElement('li');
+    const tabName = document.createElement('li');
     tabName.setAttribute('id', `${tab}`);
     tabName.innerHTML = `${tab}`;
-    navBar.appendChild(tabName);   
+    navBar.appendChild(tabName);  
   });
 
   right.appendChild(navBar);
   mainHeader.appendChild(right);
 
-  return mainHeader;   
-}
+  return mainHeader;
+};
 
 export default fullHeader;
-

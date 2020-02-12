@@ -7,6 +7,6 @@ const fullFooter = () => {
   author.setAttribute('id', 'auth');
   footNote.appendChild(author);
   return footNote;
-}
+};
 
 export default fullFooter;
