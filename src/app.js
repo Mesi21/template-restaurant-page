@@ -1,4 +1,4 @@
 import './style/style.css';
-import pageInit from './modules/loadFullPage' 
+import pageInit from './modules/loadFullPage';
 
 pageInit();
