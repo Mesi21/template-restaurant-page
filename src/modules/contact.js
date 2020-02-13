@@ -1,5 +1,5 @@
 const contactPage = () => {
-  const contact = document.createElement('contact');
+  const contact = document.createElement('div');
   contact.setAttribute('id', 'contactContainer');
 
   const contactTitle = document.createElement('h1');

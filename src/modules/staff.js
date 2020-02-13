@@ -7,7 +7,7 @@ const staffPage = () => {
   staff.appendChild(staffTitle);
 
   const staffList = document.createElement('div');
-  staffList.setAttribute('id', 'contact-details');
+  staffList.setAttribute('id', 'staff-details');
   staffList.innerHTML = '<h3>Head Chef</h3>'
     + '<p>Name One</p>'
     + '<h3>Chefs</h3>'
