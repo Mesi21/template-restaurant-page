@@ -11,22 +11,22 @@ const createNav = () => {
   const staff = document.getElementById('Staff');
   const contact = document.getElementById('Contact');
   const mainSect = document.getElementById('welcome-container');
-  
+
   home.addEventListener('click', () => {
     mainSect.innerHTML = '';
     mainSect.appendChild(mainSection());
   });
-    
+
   menu.addEventListener('click', () => {
     mainSect.innerHTML = '';
     mainSect.appendChild(menuPage());
   });
-    
+
   staff.addEventListener('click', () => {
     mainSect.innerHTML = '';
     mainSect.appendChild(staffPage());
   });
-  
+
   contact.addEventListener('click', () => {
     mainSect.innerHTML = '';
     mainSect.appendChild(contactPage());
@@ -34,8 +34,8 @@ const createNav = () => {
 };
 
 const load = () => {
-    pageInit();
-    createNav();
+  pageInit();
+  createNav();
 };
 
 load();
