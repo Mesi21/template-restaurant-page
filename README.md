@@ -1,5 +1,5 @@
 # A Restaurant Template Project
-
+<img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 It is a project from [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page). 
 
 ## Technologies Used
@@ -18,11 +18,10 @@ It is a project from [The Odin Project](https://www.theodinproject.com/courses/j
 
 ## Author
 
-- #### [Mesi21](https://github.com/Mesi21)
+#### [Mesi21](https://github.com/Mesi21)
 
 ## 🤝 Contributing
 All contributions, issues and feature requests are welcome!
-Feel free to check issues page.
 
 1. Fork it (https://github.com/Mesi21/template-restaurant-page)
 2. Create your working branch (git checkout -b [choose-a-name])
