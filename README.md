@@ -2,6 +2,10 @@
 <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 It is a project from [The Odin Project](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page). 
 
+---
+
+![screenshot](src/style/restaurant-screenshot.png)
+
 ## Technologies Used
     - Javascript
     - npm
