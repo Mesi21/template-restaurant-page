@@ -28,7 +28,7 @@ It is a project from [The Odin Project](https://www.theodinproject.com/courses/j
   - [Portfolio]()
   - [LinkedIn](https://www.linkedin.com/in/emesemesimolnar/)  
   - [Twitter](https://twitter.com/buksimesi21) 
-  - [Angel List]()
+  - [AngelList]()
 
 ## 🤝 Contributing
 All contributions, issues and feature requests are welcome!
